@@ -3,7 +3,7 @@
 //  Dimbil
 //
 //  Created by Yash Nayak on 10/12/18.
-//  Copyright © 2018 Yash Nayak. All rights reserved.
+//  Copyright © 2018 Vaibhav. All rights reserved.
 //
 
 import UIKit
@@ -15,8 +15,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    
-    
 
 }
 

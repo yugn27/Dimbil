@@ -7,36 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD078C1621BE3A3600CB6011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD078C1521BE3A3600CB6011 /* AppDelegate.swift */; };
-		FD078C1821BE3A3600CB6011 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD078C1721BE3A3600CB6011 /* ViewController.swift */; };
-		FD078C1B21BE3A3600CB6011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD078C1921BE3A3600CB6011 /* Main.storyboard */; };
-		FD078C1D21BE3A3700CB6011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD078C1C21BE3A3700CB6011 /* Assets.xcassets */; };
-		FD078C2021BE3A3700CB6011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD078C1E21BE3A3700CB6011 /* LaunchScreen.storyboard */; };
+		FD078C3421BE46CA00CB6011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD078C3321BE46CA00CB6011 /* AppDelegate.swift */; };
+		FD078C3621BE46CA00CB6011 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD078C3521BE46CA00CB6011 /* ViewController.swift */; };
+		FD078C3921BE46CA00CB6011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD078C3721BE46CA00CB6011 /* Main.storyboard */; };
+		FD078C3B21BE46CB00CB6011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD078C3A21BE46CB00CB6011 /* Assets.xcassets */; };
+		FD078C3E21BE46CB00CB6011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD078C3C21BE46CB00CB6011 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FD078C4921BE46CC00CB6011 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FD078C4521BE46CB00CB6011 /* Dimbil.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FD078C3021BE46CA00CB6011;
-			remoteInfo = Dimbil;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		FD078C1221BE3A3600CB6011 /* Dimbil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dimbil.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD078C1521BE3A3600CB6011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD078C1721BE3A3600CB6011 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD078C1A21BE3A3600CB6011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FD078C1C21BE3A3700CB6011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FD078C1F21BE3A3700CB6011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FD078C2121BE3A3700CB6011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD078C4521BE46CB00CB6011 /* Dimbil.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Dimbil.xcodeproj; path = Dimbil/Dimbil.xcodeproj; sourceTree = "<group>"; };
+		FD078C3021BE46CA00CB6011 /* Dimbil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dimbil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD078C3321BE46CA00CB6011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD078C3521BE46CA00CB6011 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD078C3821BE46CA00CB6011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD078C3A21BE46CB00CB6011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD078C3D21BE46CB00CB6011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD078C3F21BE46CB00CB6011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FD078C0F21BE3A3600CB6011 /* Frameworks */ = {
+		FD078C2D21BE46CA00CB6011 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,54 +35,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FD078C0921BE3A3600CB6011 = {
+		FD078C2721BE46CA00CB6011 = {
 			isa = PBXGroup;
 			children = (
-				FD078C1421BE3A3600CB6011 /* Dimbil */,
-				FD078C1321BE3A3600CB6011 /* Products */,
+				FD078C3221BE46CA00CB6011 /* Dimbil */,
+				FD078C3121BE46CA00CB6011 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FD078C1321BE3A3600CB6011 /* Products */ = {
+		FD078C3121BE46CA00CB6011 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD078C1221BE3A3600CB6011 /* Dimbil.app */,
+				FD078C3021BE46CA00CB6011 /* Dimbil.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FD078C1421BE3A3600CB6011 /* Dimbil */ = {
+		FD078C3221BE46CA00CB6011 /* Dimbil */ = {
 			isa = PBXGroup;
 			children = (
-				FD078C4521BE46CB00CB6011 /* Dimbil.xcodeproj */,
-				FD078C1521BE3A3600CB6011 /* AppDelegate.swift */,
-				FD078C1721BE3A3600CB6011 /* ViewController.swift */,
-				FD078C1921BE3A3600CB6011 /* Main.storyboard */,
-				FD078C1C21BE3A3700CB6011 /* Assets.xcassets */,
-				FD078C1E21BE3A3700CB6011 /* LaunchScreen.storyboard */,
-				FD078C2121BE3A3700CB6011 /* Info.plist */,
+				FD078C3321BE46CA00CB6011 /* AppDelegate.swift */,
+				FD078C3521BE46CA00CB6011 /* ViewController.swift */,
+				FD078C3721BE46CA00CB6011 /* Main.storyboard */,
+				FD078C3A21BE46CB00CB6011 /* Assets.xcassets */,
+				FD078C3C21BE46CB00CB6011 /* LaunchScreen.storyboard */,
+				FD078C3F21BE46CB00CB6011 /* Info.plist */,
 			);
 			path = Dimbil;
-			sourceTree = "<group>";
-		};
-		FD078C4621BE46CB00CB6011 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FD078C4A21BE46CC00CB6011 /* Dimbil.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD078C1121BE3A3600CB6011 /* Dimbil */ = {
+		FD078C2F21BE46CA00CB6011 /* Dimbil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD078C2421BE3A3700CB6011 /* Build configuration list for PBXNativeTarget "Dimbil" */;
+			buildConfigurationList = FD078C4221BE46CB00CB6011 /* Build configuration list for PBXNativeTarget "Dimbil" */;
 			buildPhases = (
-				FD078C0E21BE3A3600CB6011 /* Sources */,
-				FD078C0F21BE3A3600CB6011 /* Frameworks */,
-				FD078C1021BE3A3600CB6011 /* Resources */,
+				FD078C2C21BE46CA00CB6011 /* Sources */,
+				FD078C2D21BE46CA00CB6011 /* Frameworks */,
+				FD078C2E21BE46CA00CB6011 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -101,25 +81,25 @@
 			);
 			name = Dimbil;
 			productName = Dimbil;
-			productReference = FD078C1221BE3A3600CB6011 /* Dimbil.app */;
+			productReference = FD078C3021BE46CA00CB6011 /* Dimbil.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FD078C0A21BE3A3600CB6011 /* Project object */ = {
+		FD078C2821BE46CA00CB6011 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "Yash Nayak";
+				ORGANIZATIONNAME = Vaibhav;
 				TargetAttributes = {
-					FD078C1121BE3A3600CB6011 = {
+					FD078C2F21BE46CA00CB6011 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = FD078C0D21BE3A3600CB6011 /* Build configuration list for PBXProject "Dimbil" */;
+			buildConfigurationList = FD078C2B21BE46CA00CB6011 /* Build configuration list for PBXProject "Dimbil" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,70 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = FD078C0921BE3A3600CB6011;
-			productRefGroup = FD078C1321BE3A3600CB6011 /* Products */;
+			mainGroup = FD078C2721BE46CA00CB6011;
+			productRefGroup = FD078C3121BE46CA00CB6011 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = FD078C4621BE46CB00CB6011 /* Products */;
-					ProjectRef = FD078C4521BE46CB00CB6011 /* Dimbil.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				FD078C1121BE3A3600CB6011 /* Dimbil */,
+				FD078C2F21BE46CA00CB6011 /* Dimbil */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		FD078C4A21BE46CC00CB6011 /* Dimbil.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Dimbil.app;
-			remoteRef = FD078C4921BE46CC00CB6011 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		FD078C1021BE3A3600CB6011 /* Resources */ = {
+		FD078C2E21BE46CA00CB6011 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD078C2021BE3A3700CB6011 /* LaunchScreen.storyboard in Resources */,
-				FD078C1D21BE3A3700CB6011 /* Assets.xcassets in Resources */,
-				FD078C1B21BE3A3600CB6011 /* Main.storyboard in Resources */,
+				FD078C3E21BE46CB00CB6011 /* LaunchScreen.storyboard in Resources */,
+				FD078C3B21BE46CB00CB6011 /* Assets.xcassets in Resources */,
+				FD078C3921BE46CA00CB6011 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FD078C0E21BE3A3600CB6011 /* Sources */ = {
+		FD078C2C21BE46CA00CB6011 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD078C1821BE3A3600CB6011 /* ViewController.swift in Sources */,
-				FD078C1621BE3A3600CB6011 /* AppDelegate.swift in Sources */,
+				FD078C3621BE46CA00CB6011 /* ViewController.swift in Sources */,
+				FD078C3421BE46CA00CB6011 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FD078C1921BE3A3600CB6011 /* Main.storyboard */ = {
+		FD078C3721BE46CA00CB6011 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FD078C1A21BE3A3600CB6011 /* Base */,
+				FD078C3821BE46CA00CB6011 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FD078C1E21BE3A3700CB6011 /* LaunchScreen.storyboard */ = {
+		FD078C3C21BE46CB00CB6011 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FD078C1F21BE3A3700CB6011 /* Base */,
+				FD078C3D21BE46CB00CB6011 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -198,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FD078C2221BE3A3700CB6011 /* Debug */ = {
+		FD078C4021BE46CB00CB6011 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		FD078C2321BE3A3700CB6011 /* Release */ = {
+		FD078C4121BE46CB00CB6011 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,7 +278,7 @@
 			};
 			name = Release;
 		};
-		FD078C2521BE3A3700CB6011 /* Debug */ = {
+		FD078C4321BE46CB00CB6011 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -324,14 +288,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = inspire.yash.Dimbil;
+				PRODUCT_BUNDLE_IDENTIFIER = vjockyash.Dimbil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FD078C2621BE3A3700CB6011 /* Release */ = {
+		FD078C4421BE46CB00CB6011 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -341,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = inspire.yash.Dimbil;
+				PRODUCT_BUNDLE_IDENTIFIER = vjockyash.Dimbil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -351,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD078C0D21BE3A3600CB6011 /* Build configuration list for PBXProject "Dimbil" */ = {
+		FD078C2B21BE46CA00CB6011 /* Build configuration list for PBXProject "Dimbil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD078C2221BE3A3700CB6011 /* Debug */,
-				FD078C2321BE3A3700CB6011 /* Release */,
+				FD078C4021BE46CB00CB6011 /* Debug */,
+				FD078C4121BE46CB00CB6011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD078C2421BE3A3700CB6011 /* Build configuration list for PBXNativeTarget "Dimbil" */ = {
+		FD078C4221BE46CB00CB6011 /* Build configuration list for PBXNativeTarget "Dimbil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD078C2521BE3A3700CB6011 /* Debug */,
-				FD078C2621BE3A3700CB6011 /* Release */,
+				FD078C4321BE46CB00CB6011 /* Debug */,
+				FD078C4421BE46CB00CB6011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FD078C0A21BE3A3600CB6011 /* Project object */;
+	rootObject = FD078C2821BE46CA00CB6011 /* Project object */;
 }
