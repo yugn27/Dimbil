@@ -45,7 +45,7 @@ class ViewController: UIViewController {
             highScoreLabel.text = String(newScore)
         }
         
-        scoreLabel.text = "Your Score: \(score)"
+        scoreLabel.text = "Score: \(score)"
         
         let recognizer1 = UITapGestureRecognizer(target: self, action: #selector(ViewController.increaseScores))
         let recognizer2 = UITapGestureRecognizer(target: self, action: #selector(ViewController.increaseScores))
@@ -136,9 +136,9 @@ class ViewController: UIViewController {
                 
                 self.timeLabel.text = "\(self.counter)"
                 
-                self.timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.countDown), userInfo: nil, repeats: true)
+                self.timer = Timer.scheduledTimer(timeInterval: 1000, target: self, selector: #selector(ViewController.countDown), userInfo: nil, repeats: true)
                 
-                self.hideTimer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(ViewController.hidediamond), userInfo: nil, repeats: true)
+                self.hideTimer = Timer.scheduledTimer(timeInterval: 10, target: self, selector: #selector(ViewController.hidediamond), userInfo: nil, repeats: true)
                 
             })
             
